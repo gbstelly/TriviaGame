@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Trivia Game</title>
+  </head>
+  <body>
+    <div class ="container">
+      <header>
+        <div class="left"><strong><h1>Trivia Quiz</h1></strong>
+        </div>
+        
+        <div class="d-inline mx-auto center"></div>
+          <button type="button" class="btn btn-primary btn-lg" id='startBtn'>Start</button>
+       </div>
+
+      <main>
+          <div id="countTimer">
+              <h2 id="show-number">Time Remaining:</h2>
+          </div>
+   
+         </header>
+         <br>
+         <form class="questionForm" id="q1" data-question="1">
+           <h3>1.  According to Norse mythology, who is the god of thunder?</h3>
+           <ul>
+             <li><input name="q1" type = "radio" value ="a" />  Aegir</li>
+             <li><input name="q1" type = "radio" value ="b" />  Thor</li>  
+             <li><input name="q1" type = "radio" value ="c" />  Balder</li>
+             <li><input name="q1" type = "radio" value ="d" />  Forseti </li>
+           </ul>
+           <button id="submit">Submit</button>
+         </form>
+           
+          <form class="questionForm" id="q2" data-question="2">
+           <h3>2.  The ancient Egyptian symbol Ouroboros depicts a serpent eating what?</h3>
+           <ul>
+             <li><input name="q2" type = "radio" value ="a" />  A baby.</li>
+             <li><input name="q2" type = "radio" value ="b" />  A Turtle.</li>  
+             <li><input name="q2" type = "radio" value ="c" />  An Aligator.</li>
+             <li><input name="q2" type = "radio" value ="d" />  Its own tail.</li>
+           </ul>     
+           <button id="submit">Submit</button>
+         </form> 
+         
+          <form class="questionForm" id="q3" data-question="3">
+           <h3>3.  The scientific unit named after Sir Isaac Newton measures what?</h3>
+           <ul>
+             <li><input name="q3" type = "radio" value ="a" />Force</li> 
+             <li><input name="q3" type = "radio" value ="b" />Gravity</li>
+             <li><input name="q3" type = "radio" value ="c" />Light</li>
+             <li><input name="q3" type = "radio" value ="d" />Speed</li>
+           </ul>
+           <button id="submit">Submit</button>
+         </form> 
+         
+          <form class="questionForm" id="q4" data-question="4">
+           <h3>4.  Of the original six space shuttles, which one never flew a mission in space?</h3>
+           <ul>
+             <li><input name="q4" type = "radio" value ="a" />Challenger</li>
+             <li><input name="q4" type = "radio" value ="b" />Columbia</li>
+             <li><input name="q4" type = "radio" value ="c" />Enterprise</li>
+             <li><input name="q4" type = "radio" value ="d" />Discovery</li>
+           </ul>  
+           <button id="submit">Submit</button>
+         </form> 
+         
+          <form class="questionForm" id="q5" question="5">
+           <h3>5.  How many electrons does a hydrogen atom have?</h3>
+           <ul>
+             <li><input name="q5" type = "radio" value ="a" />Three</li>
+             <li><input name="q5" type = "radio" value ="b" />One</li> 
+             <li><input name="q5" type = "radio" value ="c" />Two</li>
+             <li><input name="q5" type = "radio" value ="d" />Four</li>
+           </ul>
+           <button id="submit">Submit</button>
+         </form> 
+         <div id="results"></div>
+         <br>
+         
+      </main>
+    </div> <!--containter-->
+
+ <!-- Footer -->
+ <footer>
+ </footer>
+               
+ 
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ <!-- Linking our JavaScript file -->
+     <script type="text/javascript" src="assets/javascript/app.js"></script>
+   </body>
+ </html>
