@@ -56,7 +56,7 @@ $(document).ready(function () {
           stop();
   
           //  Alert the user that time is up.
-          alert("Time Up!");
+          alert("Times Up!");
           $('#results').html(`<h3> Your final score is : ${score} out of 5 </h3>`)
         }
       }
